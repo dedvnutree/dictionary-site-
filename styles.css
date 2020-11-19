@@ -1,0 +1,46 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: chocolate;
+}
+
+.button{
+    margin: 5px;
+    padding: 1px;
+    color: #1100ff;
+}
+
+.nav, footer{
+    height: 5vh;
+    background-color: cyan;
+    padding: 1px;
+    margin: 2vh;
+    border: 10px solid coral;
+    color: black;
+    display: flex;  
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.table{
+    height: 70%;
+    background-color: cyan;
+    padding: 1px;
+    margin: 1%;
+    border: 10px solid coral;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.main{
+    text-align: center;
+    color: purple;
+}
